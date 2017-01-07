@@ -1,0 +1,26 @@
+@startuml
+
+class Tab<<static, final>> {
+    public Tab setIcon(@DrawableRes int resId);
+    public Tab setIcon(@Nullable Drawable icon);
+    public Tab setText(@Nullable CharSequence text);
+    public Tab setText(@StringRes int resId);
+    public CharSequence getText();
+}
+
+class TabLayout {
+    public static final int MODE_SCROLLABLE = 0;
+    public static final int MODE_FIXED = 1;
+    public static final int GRAVITY_FILL = 0;
+    public static final int GRAVITY_CENTER = 1;
+    public Tab newTab();
+    public void addTab(@NonNull Tab tab);
+    public void addTab(@NonNull Tab tab, int position);
+    public void addTab(@NonNull Tab tab, boolean setSelected);
+    public void addTab(@NonNull Tab tab, int position, boolean setSelected);
+    public void setupWithViewPager(@Nullable ViewPager viewPager);
+}
+HorizontalScrollView <|-- TabLayout : extends
+Tab <-- TabLayout : nestify
+
+@enduml
