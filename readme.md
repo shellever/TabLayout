@@ -318,5 +318,6 @@ public class TabLayoutViewPagerActivity extends AppCompatActivity {
 
 ## Links:
  
-**AigeStudio: [TabLayout：另一种Tab的实现方式][http://blog.csdn.net/aigestudio/article/details/47155769]**
+**AigeStudio: [TabLayout：另一种Tab的实现方式](http://blog.csdn.net/aigestudio/article/details/47155769)**
+
 **Google官方文档：https://developer.android.google.cn/reference/android/support/design/widget/TabLayout.html**
