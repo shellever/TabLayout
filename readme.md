@@ -316,6 +316,12 @@ public class TabLayoutViewPagerActivity extends AppCompatActivity {
 
 ![tab_layout_view_pager.gif](./screenshots/tab_layout_view_pager.gif)
 
+#### TabLayout的继承类图示例
+
+![tab_layout_uml_class.png](./docs/tab_layout_uml_class.png)
+
+从类图中可以看到，TabLayout是继承自HorizontalScrollView的，并且内嵌了一个static且final的内部类Tab。
+
 ## Links:
  
 **AigeStudio: [TabLayout：另一种Tab的实现方式](http://blog.csdn.net/aigestudio/article/details/47155769)**
